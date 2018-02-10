@@ -1,0 +1,52 @@
+$dark-color: #190A12;
+$overlay-color: rgba(255,105,180,0.3);
+.Navbar{
+background: #fff;
+opacity: 0.9;
+.nav-text{
+  color: $dark-color;
+}
+}
+#landing{
+position: relative;
+background:url('../img/img.jpeg');
+background-size:cover;
+min-height:830px;
+.primary-overlay{
+  position: absolute;
+  background: $overlay-color;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  min-height:830px;
+}
+.textawi{
+
+  margin-top: 200;
+  transition: all 1s;
+}
+.textawi:hover {
+  transform: scale(1.1);
+}
+.buttonawi{
+  margin-top: 30;
+  transition: all 1s;
+}
+.buttonawi:hover{
+  transform: scale(1.1);
+  }
+
+}
+.btn{
+  color: pink;
+
+}
+.btn:hover{
+  color: $dark-color;
+
+}
+.lead{
+font-weight: light;
+color:$dark-color;
+}

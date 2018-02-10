@@ -1,0 +1,39 @@
+.Navbar {
+  background: #fff;
+  opacity: 0.9; }
+  .Navbar .nav-text {
+    color: #190A12; }
+
+#landing {
+  position: relative;
+  background: url("../img/img.jpeg");
+  background-size: cover;
+  min-height: 830px; }
+  #landing .primary-overlay {
+    position: absolute;
+    background: rgba(255, 105, 180, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 830px; }
+  #landing .textawi {
+    margin-top: 200;
+    transition: all 1s; }
+  #landing .textawi:hover {
+    transform: scale(1.1); }
+  #landing .buttonawi {
+    margin-top: 30;
+    transition: all 1s; }
+  #landing .buttonawi:hover {
+    transform: scale(1.1); }
+
+.btn {
+  color: pink; }
+
+.btn:hover {
+  color: #190A12; }
+
+.lead {
+  font-weight: light;
+  color: #190A12; }
